@@ -34,11 +34,11 @@ class Employees(models.Model):
     emp_name=models.CharField(max_length=100)
     emp_email=models.CharField(max_length=100)
     emp_phone_number=models.CharField(max_length=15)
-    emp_address=models.Charfield(max_length=255)
+    emp_address=models.CharField(max_length=255)
     join_date=models.DateField()
     emp_salary = models.DecimalField(max_digits=10, decimal_places=2)
     emp_dob=models.CharField(max_length=12)
-    is_manager=models.Boolean(default=True)
+    is_manager=models.BooleanField(default=True)
     
     #add forreign key for company and project id
     
