@@ -1,9 +1,9 @@
 from rest_framework import serializers
-from .models import Employee, Project, Company
+from .models import Employees, Project, Company
 
 class EmployeeSerializer(serializers.ModelSerializer):
     class Meta:
-        model=Employee
+        model=Employees
         fields='__all__'
 
 class ProjectSerializer(serializers.ModelSerializer):
