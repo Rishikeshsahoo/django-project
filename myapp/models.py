@@ -41,7 +41,9 @@ class Employees(models.Model):
     is_manager=models.BooleanField(default=True)
     
     #add forreign key for company and project id
-    
+    Company_id=models.ForeignKey(Company, on_delete=models.CASCADE)
+    Project_id=models.ForeignKey(Project, on_delete=models.CASCADE)
+
     def __str__(self):
         return self.emp_name
     
