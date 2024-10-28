@@ -62,7 +62,7 @@ The `companydb` database includes three primary tables, managed by Django models
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/companydb.git
+   git clone https://github.com/Rishikeshsahoo/django-project
    ```
    
 2. **Set up the virtual environment**:
