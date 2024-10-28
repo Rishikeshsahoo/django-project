@@ -91,7 +91,7 @@ The `companydb` database includes three primary tables, managed by Django models
    ```
 # Company Database Management System
 
-![Database Diagram](assets/ER diagram.png)
+![Database Diagram](assets/ER_diagram.png)
 
 ## Description
 
